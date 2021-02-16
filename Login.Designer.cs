@@ -50,7 +50,7 @@
             this.txtClave.Location = new System.Drawing.Point(210, 59);
             this.txtClave.MaxLength = 10;
             this.txtClave.Name = "txtClave";
-            this.txtClave.PasswordChar = '*';
+            this.txtClave.PasswordChar = '+';
             this.txtClave.Size = new System.Drawing.Size(100, 20);
             this.txtClave.TabIndex = 1;
             // 
@@ -87,10 +87,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::ProyectoGUI_36.Properties.Resources.login1;
+            this.pictureBox1.Image = global::ProyectoGUI_36.Properties.Resources.newlogin;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(140, 112);
+            this.pictureBox1.Size = new System.Drawing.Size(140, 117);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
