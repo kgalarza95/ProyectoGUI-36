@@ -92,5 +92,17 @@ namespace ProyectoGUI_36
         {
 
         }
+
+        private void transaccionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void registrarConferenciaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RegistroConferencia obj = new RegistroConferencia();
+            obj.Show();
+            this.Hide();
+        }
     }
 }

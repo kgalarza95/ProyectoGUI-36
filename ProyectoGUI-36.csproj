@@ -112,6 +112,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistroConferencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroConferencia.Designer.cs">
+      <DependentUpon>RegistroConferencia.cs</DependentUpon>
+    </Compile>
     <Compile Include="registros\Alumnos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,6 +170,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RegistroConferencia.resx">
+      <DependentUpon>RegistroConferencia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="registros\Alumnos.resx">
       <DependentUpon>Alumnos.cs</DependentUpon>
     </EmbeddedResource>

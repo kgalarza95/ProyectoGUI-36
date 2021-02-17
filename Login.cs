@@ -35,6 +35,8 @@ namespace ProyectoGUI_36
             users.Add(user);
             user = new Usuario("cleon", "125");
             users.Add(user);
+            user = new Usuario("kevyn", "kevyn");
+            users.Add(user);
         }
 
         private void btnAceptar_Click(object sender, EventArgs e)

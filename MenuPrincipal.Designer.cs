@@ -31,14 +31,11 @@
             this.mnuPrincipal = new System.Windows.Forms.MenuStrip();
             this.mnuRegistros = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuNotas = new System.Windows.Forms.ToolStripMenuItem();
-            this.pruebaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.alumnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuClientes = new System.Windows.Forms.ToolStripMenuItem();
             this.transaccionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuFactura = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.utilitariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.registrarConferenciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,10 +56,7 @@
             // mnuRegistros
             // 
             this.mnuRegistros.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuNotas,
-            this.pruebaToolStripMenuItem,
-            this.alumnosToolStripMenuItem,
-            this.mnuClientes});
+            this.mnuNotas});
             this.mnuRegistros.Name = "mnuRegistros";
             this.mnuRegistros.Size = new System.Drawing.Size(67, 20);
             this.mnuRegistros.Text = "Registros";
@@ -70,45 +64,19 @@
             // 
             // mnuNotas
             // 
+            this.mnuNotas.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.registrarConferenciaToolStripMenuItem});
             this.mnuNotas.Name = "mnuNotas";
             this.mnuNotas.Size = new System.Drawing.Size(180, 22);
-            this.mnuNotas.Text = "Notas";
+            this.mnuNotas.Text = "Conferencias";
             this.mnuNotas.Click += new System.EventHandler(this.mnuNotas_Click);
-            // 
-            // pruebaToolStripMenuItem
-            // 
-            this.pruebaToolStripMenuItem.Name = "pruebaToolStripMenuItem";
-            this.pruebaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pruebaToolStripMenuItem.Text = "Prueba";
-            this.pruebaToolStripMenuItem.Click += new System.EventHandler(this.pruebaToolStripMenuItem_Click);
-            // 
-            // alumnosToolStripMenuItem
-            // 
-            this.alumnosToolStripMenuItem.Name = "alumnosToolStripMenuItem";
-            this.alumnosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.alumnosToolStripMenuItem.Text = "Alumnos";
-            this.alumnosToolStripMenuItem.Click += new System.EventHandler(this.alumnosToolStripMenuItem_Click);
-            // 
-            // mnuClientes
-            // 
-            this.mnuClientes.Name = "mnuClientes";
-            this.mnuClientes.Size = new System.Drawing.Size(180, 22);
-            this.mnuClientes.Text = "Clientes";
             // 
             // transaccionesToolStripMenuItem
             // 
-            this.transaccionesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuFactura});
             this.transaccionesToolStripMenuItem.Name = "transaccionesToolStripMenuItem";
-            this.transaccionesToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
-            this.transaccionesToolStripMenuItem.Text = "Transacciones";
-            // 
-            // mnuFactura
-            // 
-            this.mnuFactura.Name = "mnuFactura";
-            this.mnuFactura.Size = new System.Drawing.Size(113, 22);
-            this.mnuFactura.Text = "Factura";
-            this.mnuFactura.Click += new System.EventHandler(this.mnuFactura_Click);
+            this.transaccionesToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
+            this.transaccionesToolStripMenuItem.Text = "Editar";
+            this.transaccionesToolStripMenuItem.Click += new System.EventHandler(this.transaccionesToolStripMenuItem_Click);
             // 
             // consultasToolStripMenuItem
             // 
@@ -121,15 +89,22 @@
             this.utilitariosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.calculadoraToolStripMenuItem});
             this.utilitariosToolStripMenuItem.Name = "utilitariosToolStripMenuItem";
-            this.utilitariosToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
-            this.utilitariosToolStripMenuItem.Text = "Utilitarios";
+            this.utilitariosToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.utilitariosToolStripMenuItem.Text = "Ayuda";
             // 
             // calculadoraToolStripMenuItem
             // 
             this.calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
-            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.calculadoraToolStripMenuItem.Text = "Calculadora";
             this.calculadoraToolStripMenuItem.Click += new System.EventHandler(this.calculadoraToolStripMenuItem_Click);
+            // 
+            // registrarConferenciaToolStripMenuItem
+            // 
+            this.registrarConferenciaToolStripMenuItem.Name = "registrarConferenciaToolStripMenuItem";
+            this.registrarConferenciaToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.registrarConferenciaToolStripMenuItem.Text = "Registrar Conferencia";
+            this.registrarConferenciaToolStripMenuItem.Click += new System.EventHandler(this.registrarConferenciaToolStripMenuItem_Click);
             // 
             // frmMenuPrincipal
             // 
@@ -155,11 +130,8 @@
         public System.Windows.Forms.ToolStripMenuItem mnuNotas;
         private System.Windows.Forms.ToolStripMenuItem transaccionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pruebaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem alumnosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem utilitariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calculadoraToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mnuClientes;
-        private System.Windows.Forms.ToolStripMenuItem mnuFactura;
+        private System.Windows.Forms.ToolStripMenuItem registrarConferenciaToolStripMenuItem;
     }
 }
