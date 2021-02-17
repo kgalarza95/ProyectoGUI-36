@@ -31,11 +31,11 @@
             this.mnuPrincipal = new System.Windows.Forms.MenuStrip();
             this.mnuRegistros = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuNotas = new System.Windows.Forms.ToolStripMenuItem();
+            this.registrarConferenciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.transaccionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.utilitariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registrarConferenciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,7 +48,7 @@
             this.utilitariosToolStripMenuItem});
             this.mnuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.mnuPrincipal.Name = "mnuPrincipal";
-            this.mnuPrincipal.Size = new System.Drawing.Size(800, 24);
+            this.mnuPrincipal.Size = new System.Drawing.Size(800, 27);
             this.mnuPrincipal.TabIndex = 0;
             this.mnuPrincipal.Text = "menuStrip1";
             this.mnuPrincipal.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.mnuPrincipal_ItemClicked);
@@ -57,8 +57,9 @@
             // 
             this.mnuRegistros.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuNotas});
+            this.mnuRegistros.Font = new System.Drawing.Font("Segoe Print", 8.25F);
             this.mnuRegistros.Name = "mnuRegistros";
-            this.mnuRegistros.Size = new System.Drawing.Size(67, 20);
+            this.mnuRegistros.Size = new System.Drawing.Size(71, 23);
             this.mnuRegistros.Text = "Registros";
             this.mnuRegistros.Click += new System.EventHandler(this.registrosToolStripMenuItem_Click);
             // 
@@ -66,45 +67,49 @@
             // 
             this.mnuNotas.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.registrarConferenciaToolStripMenuItem});
+            this.mnuNotas.Font = new System.Drawing.Font("Segoe Print", 8.25F);
             this.mnuNotas.Name = "mnuNotas";
-            this.mnuNotas.Size = new System.Drawing.Size(180, 22);
+            this.mnuNotas.Size = new System.Drawing.Size(180, 24);
             this.mnuNotas.Text = "Conferencias";
             this.mnuNotas.Click += new System.EventHandler(this.mnuNotas_Click);
             // 
+            // registrarConferenciaToolStripMenuItem
+            // 
+            this.registrarConferenciaToolStripMenuItem.Name = "registrarConferenciaToolStripMenuItem";
+            this.registrarConferenciaToolStripMenuItem.Size = new System.Drawing.Size(198, 24);
+            this.registrarConferenciaToolStripMenuItem.Text = "Registrar Conferencia";
+            this.registrarConferenciaToolStripMenuItem.Click += new System.EventHandler(this.registrarConferenciaToolStripMenuItem_Click);
+            // 
             // transaccionesToolStripMenuItem
             // 
+            this.transaccionesToolStripMenuItem.Font = new System.Drawing.Font("Segoe Print", 8.25F);
             this.transaccionesToolStripMenuItem.Name = "transaccionesToolStripMenuItem";
-            this.transaccionesToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
+            this.transaccionesToolStripMenuItem.Size = new System.Drawing.Size(56, 23);
             this.transaccionesToolStripMenuItem.Text = "Editar";
             this.transaccionesToolStripMenuItem.Click += new System.EventHandler(this.transaccionesToolStripMenuItem_Click);
             // 
             // consultasToolStripMenuItem
             // 
+            this.consultasToolStripMenuItem.Font = new System.Drawing.Font("Segoe Print", 8.25F);
             this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
-            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(73, 23);
             this.consultasToolStripMenuItem.Text = "Consultas";
             // 
             // utilitariosToolStripMenuItem
             // 
             this.utilitariosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.calculadoraToolStripMenuItem});
+            this.utilitariosToolStripMenuItem.Font = new System.Drawing.Font("Segoe Print", 8.25F);
             this.utilitariosToolStripMenuItem.Name = "utilitariosToolStripMenuItem";
-            this.utilitariosToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.utilitariosToolStripMenuItem.Size = new System.Drawing.Size(57, 23);
             this.utilitariosToolStripMenuItem.Text = "Ayuda";
             // 
             // calculadoraToolStripMenuItem
             // 
             this.calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
-            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(142, 24);
             this.calculadoraToolStripMenuItem.Text = "Calculadora";
             this.calculadoraToolStripMenuItem.Click += new System.EventHandler(this.calculadoraToolStripMenuItem_Click);
-            // 
-            // registrarConferenciaToolStripMenuItem
-            // 
-            this.registrarConferenciaToolStripMenuItem.Name = "registrarConferenciaToolStripMenuItem";
-            this.registrarConferenciaToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
-            this.registrarConferenciaToolStripMenuItem.Text = "Registrar Conferencia";
-            this.registrarConferenciaToolStripMenuItem.Click += new System.EventHandler(this.registrarConferenciaToolStripMenuItem_Click);
             // 
             // frmMenuPrincipal
             // 

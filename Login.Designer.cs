@@ -39,44 +39,46 @@
             // 
             // txtUsuario
             // 
+            this.txtUsuario.Font = new System.Drawing.Font("Segoe Print", 8.25F);
             this.txtUsuario.Location = new System.Drawing.Point(210, 23);
             this.txtUsuario.MaxLength = 10;
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(100, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(100, 27);
             this.txtUsuario.TabIndex = 0;
             // 
             // txtClave
             // 
+            this.txtClave.Font = new System.Drawing.Font("Segoe Print", 8.25F);
             this.txtClave.Location = new System.Drawing.Point(210, 59);
             this.txtClave.MaxLength = 10;
             this.txtClave.Name = "txtClave";
             this.txtClave.PasswordChar = '+';
-            this.txtClave.Size = new System.Drawing.Size(100, 20);
+            this.txtClave.Size = new System.Drawing.Size(100, 27);
             this.txtClave.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe Print", 8.25F);
             this.label1.Location = new System.Drawing.Point(165, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 13);
+            this.label1.Size = new System.Drawing.Size(38, 19);
             this.label1.TabIndex = 2;
             this.label1.Text = "Clave";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Segoe Print", 8.25F);
             this.label2.Location = new System.Drawing.Point(158, 26);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 13);
+            this.label2.Size = new System.Drawing.Size(51, 19);
             this.label2.TabIndex = 3;
             this.label2.Text = "Usuario";
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptar.Font = new System.Drawing.Font("Segoe Print", 8.25F);
             this.btnAceptar.Location = new System.Drawing.Point(222, 101);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);

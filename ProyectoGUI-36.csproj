@@ -83,6 +83,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clases\Conferencia.cs" />
     <Compile Include="clases\Persona.cs" />
     <Compile Include="clases\Promedio.cs" />
     <Compile Include="clases\Usuario.cs" />
@@ -233,6 +234,8 @@
     <None Include="Resources\lupa.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\guardar.png" />
+    <Content Include="img\limpiar.png" />
     <Content Include="img\newlogin.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
