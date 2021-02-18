@@ -108,5 +108,10 @@ namespace ProyectoGUI_36
         {
             MessageBox.Show(textBox1.Text);
         }
+
+        private void lblFechaC_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -16,6 +16,7 @@ namespace ProyectoGUI_36.clases
         private String categoria;//tecnologia, social, medicina, leyes   
         private int cantAsistentes;
         private double valorEntrada;
+        private double total;
 
         public Conferencia()
         {
@@ -102,6 +103,15 @@ namespace ProyectoGUI_36.clases
             this.valorEntrada = valorEntrada;
         }
 
-    
+        public double getTotal()
+        {
+            return this.cantAsistentes * this.valorEntrada;
+        }
+
+        public void setTotal(double total)
+        {
+            this.total = total;
+        }
+
     }
 }

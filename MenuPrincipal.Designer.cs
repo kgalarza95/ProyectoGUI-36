@@ -51,7 +51,6 @@
             this.mnuPrincipal.Size = new System.Drawing.Size(800, 27);
             this.mnuPrincipal.TabIndex = 0;
             this.mnuPrincipal.Text = "menuStrip1";
-            this.mnuPrincipal.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.mnuPrincipal_ItemClicked);
             // 
             // mnuRegistros
             // 
@@ -61,7 +60,6 @@
             this.mnuRegistros.Name = "mnuRegistros";
             this.mnuRegistros.Size = new System.Drawing.Size(71, 23);
             this.mnuRegistros.Text = "Registros";
-            this.mnuRegistros.Click += new System.EventHandler(this.registrosToolStripMenuItem_Click);
             // 
             // mnuNotas
             // 
@@ -71,7 +69,6 @@
             this.mnuNotas.Name = "mnuNotas";
             this.mnuNotas.Size = new System.Drawing.Size(180, 24);
             this.mnuNotas.Text = "Conferencias";
-            this.mnuNotas.Click += new System.EventHandler(this.mnuNotas_Click);
             // 
             // registrarConferenciaToolStripMenuItem
             // 
@@ -86,7 +83,6 @@
             this.transaccionesToolStripMenuItem.Name = "transaccionesToolStripMenuItem";
             this.transaccionesToolStripMenuItem.Size = new System.Drawing.Size(56, 23);
             this.transaccionesToolStripMenuItem.Text = "Editar";
-            this.transaccionesToolStripMenuItem.Click += new System.EventHandler(this.transaccionesToolStripMenuItem_Click);
             // 
             // consultasToolStripMenuItem
             // 
@@ -109,7 +105,6 @@
             this.calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
             this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(142, 24);
             this.calculadoraToolStripMenuItem.Text = "Calculadora";
-            this.calculadoraToolStripMenuItem.Click += new System.EventHandler(this.calculadoraToolStripMenuItem_Click);
             // 
             // frmMenuPrincipal
             // 

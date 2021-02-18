@@ -268,6 +268,7 @@
             this.lblFechaC.Size = new System.Drawing.Size(64, 13);
             this.lblFechaC.TabIndex = 10;
             this.lblFechaC.Text = "Fecha corta";
+            this.lblFechaC.Click += new System.EventHandler(this.lblFechaC_Click);
             // 
             // lblFechaL
             // 

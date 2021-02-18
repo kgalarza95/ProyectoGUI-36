@@ -29,7 +29,7 @@ namespace ProyectoGUI_36
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("");
             this.label1 = new System.Windows.Forms.Label();
             this.txtConferencia = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -56,6 +56,7 @@ namespace ProyectoGUI_36
             this.valorEntrada = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
+            this.colTotal = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // label1
@@ -232,13 +233,14 @@ namespace ProyectoGUI_36
             this.hora,
             this.categoria,
             this.cantAsistentes,
-            this.valorEntrada});
+            this.valorEntrada,
+            this.colTotal});
             this.listConferencia.HideSelection = false;
             this.listConferencia.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem2});
-            this.listConferencia.Location = new System.Drawing.Point(71, 255);
+            listViewItem1});
+            this.listConferencia.Location = new System.Drawing.Point(12, 255);
             this.listConferencia.Name = "listConferencia";
-            this.listConferencia.Size = new System.Drawing.Size(955, 281);
+            this.listConferencia.Size = new System.Drawing.Size(997, 281);
             this.listConferencia.TabIndex = 16;
             this.listConferencia.UseCompatibleStateImageBehavior = false;
             this.listConferencia.View = System.Windows.Forms.View.Details;
@@ -270,12 +272,12 @@ namespace ProyectoGUI_36
             // categoria
             // 
             this.categoria.Text = "Categoria";
-            this.categoria.Width = 134;
+            this.categoria.Width = 119;
             // 
             // cantAsistentes
             // 
             this.cantAsistentes.Text = "cant Asistentes";
-            this.cantAsistentes.Width = 123;
+            this.cantAsistentes.Width = 97;
             // 
             // valorEntrada
             // 
@@ -305,6 +307,10 @@ namespace ProyectoGUI_36
             this.btnAgregar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
+            // colTotal
+            // 
+            this.colTotal.Text = "Recaudacion";
             // 
             // RegistroConferencia
             // 
@@ -367,5 +373,6 @@ namespace ProyectoGUI_36
         private System.Windows.Forms.ColumnHeader valorEntrada;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.ColumnHeader colTotal;
     }
 }

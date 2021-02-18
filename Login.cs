@@ -29,11 +29,11 @@ namespace ProyectoGUI_36
         private void cargarUsuario()
         {
             users = new List<Usuario>();
-            Usuario user = new Usuario("jzumba","123");
+            Usuario user = new Usuario("jmolina","123");
             users.Add(user);
-            user = new Usuario("jcastro", "124");
+            user = new Usuario("kguzman", "kguzman");
             users.Add(user);
-            user = new Usuario("cleon", "125");
+            user = new Usuario("kvera", "125");
             users.Add(user);
             user = new Usuario("kevyn", "kevyn");
             users.Add(user);
